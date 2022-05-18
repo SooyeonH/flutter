@@ -35,9 +35,6 @@ class MyHomePage extends StatelessWidget {
       body:
          
           const MySnackBar(),
-        
-        
-        
       
     //   body: Center(
     //     child: ElevatedButton(
