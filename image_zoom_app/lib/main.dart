@@ -108,7 +108,7 @@ class _HomeState extends State<Home> {
   }
 
   decisionOnOff() {
-    if (_switch == true) {
+    if (_switch ) { //switch는 bool함수여서 ==true를 써주지 않아도됨
       _lampImage = 'images/lamp_on.png';
     } else {
       _lampImage = 'images/lamp_off.png';
